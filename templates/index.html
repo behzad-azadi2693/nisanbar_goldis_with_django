@@ -1,0 +1,536 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block meta_description %}اگر باری برای حمل دارید و انتقال صحیح و به موقع آن برای شما بسیار ارزشمند است ، انتقال بار خود را به یک باربری مطمئن و با اعتبار بسپارید. شرکت های معتبر برای بالا بردن درصد اعتبار خود تمام تلاش خویش را به کار می گیرند تا با ایمن ترین و مطمئن ترین حالت ممکن بار مشتری را در بهترین زمان ممکن به مقصد برساند و رضایت مشتری را جلب نماید.
+{% endblock meta_description %}
+{% block meta_keywords %}نیسان بار گلدیس ,باربری,حمل کالا,چیدمان,بسته بندی اثاثیه,باربر,باربری تهران,حمل اثاثیه,حمل و نقل,جابجایی کالا,کارگر باربری,اتوبار,نیسان بار,سایپابار,وانتبار, ,وانت بار,گلدیس,اتوبار نیسان بار گلدیس ,ظریف بار {% endblock meta_keywords %}
+
+{% block body %}
+      <a href="tel:09916296735"  id="callnowbutton"></a>
+      <!-- banner -->
+      <section class="banner_main">
+         <br>
+         <div id="banner1" class="carousel slide banner_slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#banner1" data-slide-to="0" class="active"></li>
+               <li data-target="#banner1" data-slide-to="1"></li>
+               <li data-target="#banner1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container-fluid">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-7 col-lg-5">
+                              <div class="text-bg text-center">
+                                 <span>
+                                    <h1>حمل بار</h1>
+                                    <h1>با بیمه کامل</h1>
+                                    <h1>همراه تخفیف</h1>
+                                 </span>
+                                 <h3 style="color:green">تضمین حمل کالای شما</h3>
+                              </div>
+                           </div>
+                           <div class="col-md-12 col-lg-7">
+                              <div class="row">
+                                 <div class="col-md-6">
+                                    <div class="ban_track">
+                                       <figure><img src="{% static 'images/saipa.png' %}" alt="#"/></figure>
+                                    </div>
+                                 </div>
+                                 <div class="bg-primary col-md-6 text-center" >
+                                    <form class="transfot text-center" style="direction:rtl">
+                                       <div class="col-md-12 text-center"style="direction:rtl">
+                                          <span>حمل بار خود را به ما بسپارید</span>
+                                          <h3>حمل و جابجایی اثاثیه و کالای شما</h3>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <h3>رضایت مندی مشتری</h3>
+                                       </div>
+
+                                       <div class="col-md-12">
+                                          <h3> صفر تا صد خدمات </h3>
+
+                                       </div>
+                                       <div class="col-md-12">
+                                          <h3> مجرب و متعهد </h3>
+
+                                       </div>
+                                      
+                                    </form>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container-fluid">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-7 col-lg-5">
+                              <div class="text-bg text-center">
+                                 <span>
+                                    <h1> بسته بندی و چیدمان</h1>
+                                    <h1> کمترین هزینه</h1>
+                                    <h1> نیرو متخصص</h1>
+                                 </span>
+                                 <h3 style="color:green">سرعت و دقت عمل</h3>
+                              </div>
+                           </div>
+                           <div class="col-md-12 col-lg-7">
+                              <div class="row">
+                                 <div class="col-md-6">
+                                    <div class="ban_track">
+                                       <figure><img src="{% static 'images/kala.png' %}" alt="#"/></figure>
+                                    </div>
+                                 </div>
+                                 <div class="bg-primary  col-md-6 text-center" >
+                                    <form class="transfot text-center" style="direction:rtl">
+                                       <div class="col-md-12 text-center"style="direction:rtl">
+                                          <span>حمل بار خود را به ما بسپارید</span>
+                                          <h3>حمل و جابجایی اثاثیه و کالای شما</h3>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <h3>رضایت مندی مشتری</h3>
+                                       </div>
+
+                                       <div class="col-md-12">
+                                          <h3> صفر تا صد خدمات </h3>
+
+                                       </div>
+                                       <div class="col-md-12">
+                                          <h3> مجرب و متعهد </h3>
+
+                                       </div>
+                                      
+                                    </form>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container-fluid">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-7 col-lg-5">
+                              <div class="text-bg text-center">
+                                 <span>
+                                    <h1> جابجایی</h1>
+                                    <h1> درون شهری</h1>
+                                    <h1> برون شهری</h1>
+                                    <h1>بصورت ۲۴ ساعته</h1>
+                                 </span>
+                                 <h3 style="color:green"> به ما اعتماد کنید</h3>
+                              </div>
+                           </div>
+                           <div class="col-md-12 col-lg-7">
+                              <div class="row">
+                                 <div class="col-md-6">
+                                    <div class="ban_track">
+                                       <figure><img src="{% static 'images/saiapa2.png' %}" alt="#"/></figure>
+                                    </div>
+                                 </div>
+                                 <div class="bg-primary col-md-6 text-center" >
+                                    <form class="transfot text-center" style="direction:rtl">
+                                       <div class="col-md-12 text-center"style="direction:rtl">
+                                          <span>حمل بار خود را به ما بسپارید</span>
+                                          <h3>حمل و جابجایی اثاثیه و کالای شما</h3>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <h3>رضایت مندی مشتری</h3>
+                                       </div>
+
+                                       <div class="col-md-12">
+                                          <h3> صفر تا صد خدمات </h3>
+
+                                       </div>
+                                       <div class="col-md-12">
+                                          <h3> مجرب و متعهد </h3>
+
+                                       </div>
+                                      
+                                    </form>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container-fluid">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-7 col-lg-5">
+                              <div class="text-bg text-center">
+                                 <span>
+                                    <h1> کارگر</h1>
+                                    <h1> با اخلاق و جوان</h1>
+                                    <h1> نیروی مجرب</h1>
+                                 </span>
+                                 <h3 style="color:green"> آسایش حضور در محل</h3>
+                              </div>
+                           </div>
+                           <div class="col-md-12 col-lg-7">
+                              <div class="row">
+                                 <div class="col-md-6">
+                                    <div class="ban_track">
+                                       <figure><img src="{% static 'images/karegar.png' %}" alt="#"/></figure>
+                                    </div>
+                                 </div>
+                                 <div class="bg-primary col-md-6 text-center" >
+                                    <form class="transfot text-center" style="direction:rtl">
+                                       <div class="col-md-12 text-center"style="direction:rtl">
+                                          <span>حمل بار خود را به ما بسپارید</span>
+                                          <h3>حمل و جابجایی اثاثیه و کالای شما</h3>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <h3>رضایت مندی مشتری</h3>
+                                       </div>
+
+                                       <div class="col-md-12">
+                                          <h3> صفر تا صد خدمات </h3>
+
+                                       </div>
+                                       <div class="col-md-12">
+                                          <h3> مجرب و متعهد </h3>
+
+                                       </div>
+                                      
+                                    </form>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev bg-dark" href="#banner1" role="button" data-slide="prev">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next bg-dark" href="#banner1" role="button" data-slide="next">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </a>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- about section -->
+      <div id="about" class="about ">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-6">
+                  <div class="about_right">
+                     <figure><img src="{% static 'images/saipa.png' %}" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-6 text-center">
+                  <div class="titlepage">
+                     <h2>نیسان بار گلدیس</h2>
+                     <p> 
+                        اگر باری برای حمل دارید و انتقال صحیح و به موقع آن برای شما بسیار ارزشمند است ، انتقال بار خود را به یک باربری مطمئن و با اعتبار بسپارید. شرکت های معتبر برای بالا بردن درصد اعتبار خود تمام تلاش خویش را به کار می گیرند تا با ایمن ترین و مطمئن ترین حالت ممکن بار مشتری را در بهترین زمان ممکن به مقصد برساند و رضایت مشتری را جلب نماید.
+                        <span class="text-success">  نیسان بار گلدیس  سلامت کالا و اثاثیه شما را تضمین می کند</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="about_right">
+                     <figure><img src="{% static 'images/saiapa2.png' %}" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-6 text-center">
+                  <div class="titlepage">
+                     <h2>ناوگان حمل و نقل</h2>
+                     <p> 
+                        نیسان بار گلدیس دارای انواع مینی کامیون های مسقف و سقف باز چادربند است. تمامی مینی کامیون ها مجهز به تعداد زیادی پتو هستند تا از ضربه و آسیب رسیدن به وسایل شما جلوگیری به عمل آید. 
+                        <spam class="text-success"> حمل و جابجایی کامل اثاثیه ها و کالا ها</spam>
+
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="about_right">
+                     <figure><img src="{% static 'images/karegar.png' %}" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-6 text-center">
+                  <div class="titlepage">
+                     <h2>بسته بندی، حمل نقل، چیدمان</h2>
+                     <p> 
+                        بسته بندی لوازم منزل و اثاثیه با رعایت استانداردهای آن باعث میگردد که وسایل شما بدون آسیب به محل جدید منتقل شود. کارتن های محکم، چسب و سلفون، بسته های حمل رختخواب، کارتن رگال دار مخصوص البسه و همینطور روشی مناسب برای جمع آوری اثاثیه، کمک می کنند تا اسباب کشی با سرعت و بدون خسارت و آسیب جسمی به پایان برسد
+                        <span class="text-success">هدف ما فقط جلب رضایت مشتریان است</span>
+                        
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section -->
+      <!-- service section -->
+      <div id="service" class="service">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="titlepage">
+                     <h2>خدمات ما</h2>
+                     <p>
+                        حمل و جابجایی کلیه اثاثیه خانگی و اداری به تمام نقاط کشور نیروی متخصص و جوان حمل بار خود را به نیروی های متخصص و جوان ما بسپارید
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="service_main">
+                     <div class="service_box blu_colo">
+                        <i><img src="{% static 'images/ser1.png' %}" alt="#"/></i>
+                        <h4>با سرعت عمل</h4>
+                     </div>
+                     <div class="service_box yelldark_colo">
+                        <i><img src="{% static 'images/ser2.png' %}" alt="#"/></i>
+                        <h4>به تمام نقاط</h4>
+                     </div>
+                     <div class="service_box yell_colo">
+                        <i><img src="{% static 'images/ser3.png' %}" alt="#"/></i>
+                        <h4> حمل و جابجایی</h4>
+                     </div>
+                     <div class="service_box yelldark_colo">
+                        <i><img src="{% static 'images/ser4.png' %}" alt="#"/></i>
+                        <h4>بسته بندی</h4>
+                     </div>
+                     <div class="service_box yell_colo">
+                        <i><img src="{% static 'images/ser5.png' %}" alt="#"/></i>
+                        <h4>100% تضمین</h4>
+                     </div>
+                  </div>
+               </div>
+              
+            </div>
+         </div>
+      </div>
+      <!-- end service section -->
+      <!-- vehicles section -->
+      <section id="vehicles" class="vehicles">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2></h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="veh" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#veh" data-slide-to="0" class="active"></li>
+               <li data-target="#veh" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="{% static 'images/saipa.png' %}" alt="#"/></figure>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="{% static 'images/saiapa2.png' %}" alt="#"/></figure>
+                              </div>
+                              <h3 class="blac_co">حمل بار</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="{% static 'images/saipa3.png' %}" alt="#"/></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="{% static 'images/kala2.png' %}" alt="#"/></figure>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="{% static 'images/karegar.png' %}" alt="#"/></figure>
+                              </div>
+                              <h3 class="blac_co">خدمات نوین</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="{% static 'images/kala.png' %}" alt="#"/></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               
+            </div>
+            <a class="carousel-control-prev" href="#veh" role="button" data-slide="prev">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#veh" role="button" data-slide="next">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </a>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end vehicles section -->
+      <!-- testimonial section -->
+      <div id="testimonial" class="testimonial bottom_cross bottom_cross2">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>تخفیفات ما</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="myCarousel" class="carousel slide testimonial_Carousel " data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption ">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="testimonial_box">
+                                          <p>
+                                             تمامی خدمات ما دارای 10 درصد تخفیف نسبت به تعرفه اتحادیه حمل و نقل می باشد
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="testimonial_box">
+                                          <p>
+                                             در صورتی که عضو مشتریان دایم خدمات ما باشید نیز 10 درصد دیگر هم به به تعرفه تخفیف افزوده میگردد
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="full cross_layout">
+                                          <div class="testimonial_box">
+                                             <p>
+                                                علاوه بر این شما می توانید از تخفیف مهمان ما نیز بهرمند شوید کافیست که معرف شما یکی از مشتریان همیشگی ما باشد
+                                             </p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <i class="fa fa-caret-left" aria-hidden="true"></i>
+                     </a>
+                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <i class="fa fa-caret-right" aria-hidden="true"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end testimonial section -->
+      <!-- choose section -->
+      <div class="choose">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>نیسان بار گلدیس </h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="choose_box">
+                     <i><img src="{% static 'images/why1.png' %}" alt="#"/></i>
+                     <h3>چشم انداز ما</h3>
+                     <p class="text-center">
+                        اگر باری برای حمل دارید و انتقال صحیح و به موقع آن برای شما بسیار ارزشمند است ، انتقال بار خود را به یک باربری مطمئن و با اعتبار بسپارید. شرکت های معتبر برای بالا بردن درصد اعتبار خود تمام تلاش خویش را به کار می گیرند تا با ایمن ترین و مطمئن ترین حالت ممکن بار مشتری را در بهترین زمان ممکن به مقصد برساند و رضایت مشتری را جلب نماید. نیسان بار گلدیس  سلامت کالا و اثاثیه شما را تضمین می کند
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-5 offset-md-2">
+                  <div class="choose_box">
+                     <i><img src="{% static 'images/why2.png' %}" alt="#"/></i>
+                     <h3>شرکت حمل و نقل  </h3>
+                     <p class="text-center">
+                        شرکت حمل و نقل تهراتبار  دارای کسب پروانه اتحادیه باربران کشور می باشد این مجموعه در سال ۱۳۸۰ با هدف ارايه خدمت به هم میهنان عزیز فعالیت خود را شروع کرده همچنان با گسترش دامنه فعالیت و خدمات خود در کنار شما عزیزان برای خدمت رسانی قرار داریم
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end choose section -->
+     
+      <!-- end contact section -->
+     
+      <!-- Javascript files-->
+      <script src="{% static 'js/jquery.min.js' %}"></script>
+      <script src="{% static 'js/popper.min.js' %}"></script>
+      <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+      <script src="{% static 'js/jquery-3.0.0.min.js' %}"></script>
+      <script src="{% static 'js/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+      <script src="{% static 'js/custom.js' %}"></script>
+      <script>
+         function openNav() {
+           document.getElementById("mySidepanel").style.width = "250px";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidepanel").style.width = "0";
+         }
+      </script>
+{% endblock %}
+
